@@ -22,10 +22,10 @@ This project models housing prices in Cook County with a focus on property tax i
 
 ### How to Run
 1. Clone repo and install dependencies:  
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
-2. Open projA1.ipynb or projA2.ipynb in Jupyter/Colab
+```
+2. Open projA1.ipynb or projA2.ipynb in Jupyter Notebook
 3. Run all cells to reproduce preprocessing, modeling, and evaluation
    
 ---
@@ -44,12 +44,12 @@ This project builds a spam email classifier using logistic regression. The objec
 ### Results
 - Achieved ~90% test accuracy (top 7%)
 - ROC curve validated classifier performance
-- Hyperparameter tuning improved precision–recall balance
+- Hyperparameter tuning improved precision–recall balance
 
 ### How to Run
 1. Clone repo and install dependencies:
   ```
    pip install -r requirements.txt
   ```
-2. Open projB1.ipynb or projB2.ipynb in Jupyter/Colab
+2. Open projB1.ipynb or projB2.ipynb in Jupyter Notebook
 3. Run all cells to reproduce preprocessing, modeling, and evaluation
