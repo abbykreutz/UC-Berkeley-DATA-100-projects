@@ -1,22 +1,24 @@
-# Data Science Projects: Cook County Housing Prices & Spam Email Classifier
+# DATA 100: Principles & Techniques of Data Science Projects
+### Cook County Housing Prices & Spam Email Classifier
 
-This repository contains two applied data science projects completed in Jupyter notebooks.  
-Project A focuses on **regression modeling for housing prices and tax inequality**, while Project B builds a **spam email classifier using logistic regression**.  
+This repo showcases two projects focused on predictive modeling: a housing price regression analyzing tax inequality and a spam email classifier using TF-IDF and logistic regression. Both projects demonstrate end-to-end workflows from data cleaning to model evaluation.
+
+**Tech used:** Python, pandas, NumPy, scikit-learn, in Jupyter Notebooks.
 
 ---
 
-## Project A: Housing Price Regression
+## Project A: Housing Price Regression (Oct 2024)
 
 ### Overview
-This project models housing prices in Cook County with a focus on property tax inequality. Using regression and feature engineering, the goal is to evaluate predictive accuracy and quantify misestimation of homeowner tax burdens.  
+This project models housing prices in Cook County, IL, with a focus on property tax inequality. The goal is to evaluate predictive accuracy and identify systematic misestimation of homeowner tax burdens.
 
 ### Methods
-- Data preprocessing (cleaning, one-hot encoding, log transformations)  
-- Linear regression with scikit-learn  
-- Evaluation with RMSE, residual analysis, and stratified error metrics  
+- Data preprocessing (cleaning, one-hot encoding, log transformations)
+- Linear regression with scikit-learn
+- Evaluation with RMSE, residual analysis, and stratified error metrics
 
 ### Results
-- Achieved reasonable RMSE for overall model fit  
+- Achieved strong predictive performance with RMSE-based evaluation
 - Residual plots showed systematic differences by property value tiers  
 - Highlighted cases of potential tax misestimation  
 
@@ -30,21 +32,21 @@ This project models housing prices in Cook County with a focus on property tax i
    
 ---
 
-## Project B: Spam/Ham Email Classification
+## Project B: Spam/Ham Email Classification (Nov 2024)
 
 ### Overview
 
-This project builds a spam email classifier using logistic regression. The objective is to detect spam messages and evaluate classification performance with standard metrics.
+This project uses logistic regression with TF-IDF features to detect spam messages and evaluate classification performance. Achieved ~90% test accuracy (top 7% of class).
 
 ### Methods
 - Text preprocessing (tokenization, lowercasing, keyword features)
-- Logistic regression with scikit-learn pipelines
+- Logistic regression with scikit-learn
 - Evaluation with ROC/AUC, confusion matrix, and GridSearchCV for tuning
 
 ### Results
-- Achieved ~90% test accuracy (top 7%)
-- ROC curve validated classifier performance
-- Hyperparameter tuning improved precision–recall balance
+- Achieved ~90% test accuracy
+- Strong ROC/AUC performance
+- Improved precision–recall tradeoff through hyperparameter tuning
 
 ### How to Run
 1. Clone repo and install dependencies:
