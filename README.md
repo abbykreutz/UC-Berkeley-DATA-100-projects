@@ -1,5 +1,4 @@
 # DATA 100: Principles & Techniques of Data Science Projects
-### Cook County Housing Prices & Spam Email Classifier
 
 This repo showcases two projects focused on predictive modeling: a housing price regression analyzing tax inequality and a spam email classifier using TF-IDF and logistic regression. Both projects demonstrate end-to-end workflows from data cleaning to model evaluation.
 
@@ -7,7 +6,7 @@ This repo showcases two projects focused on predictive modeling: a housing price
 
 ---
 
-## Project A: Housing Price Regression (Oct 2024)
+## Project A: Predicting Cook County Housing Prices (Oct 2024)
 
 ### Overview
 This project models housing prices in Cook County, IL, with a focus on property tax inequality. The goal is to evaluate predictive accuracy and identify systematic misestimation of homeowner tax burdens.
@@ -32,7 +31,7 @@ This project models housing prices in Cook County, IL, with a focus on property 
    
 ---
 
-## Project B: Spam/Ham Email Classification (Nov 2024)
+## Project B: Spam/Ham Email Classifier (Nov 2024)
 
 ### Overview
 
